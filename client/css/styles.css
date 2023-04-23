@@ -63,6 +63,10 @@
   width: 155px;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 @media (max-width: 858px) {
   .Menu {
     padding-right: 23px;
