@@ -236,15 +236,20 @@
 
 @media (max-width: 858px) {
   .title2 {
-    font-size: 2em;
+    font-size: 1.4em;
   }
   
   .row2 {
     height: 30%;
   }
+
+  .imageBorder2 {
+    height: 80%;
+    margin: 5% 0% 5% 0%;
+  }
   
   .text2 {
-    padding: 10% 5% 10% 5%;
+    padding: 0% 5% 0% 5%;
     font-size: 14px;
   }
 }
@@ -272,6 +277,14 @@
   height: 22em;
 }
 
+.title31 {
+  text-align: center;
+  color: #2a2b78;
+  font-family: 'Prata',Georgia,"Times New Roman",serif;
+  font-size: 3em;
+  line-height: 1.6em;
+}
+
 .title3 {
   color: #2a2b78;
   font-family: 'Prata',Georgia,"Times New Roman",serif;
@@ -285,9 +298,13 @@
   line-height: 2;
 }
 
+.button3 {
+  margin-top: 15px;
+}
+
 @media (max-width: 575px) {
   .background31 {
-    height: 8em;
+    height: 6em;
   }
   
   .background32 {
@@ -297,16 +314,22 @@
   .background33 {
     display: none;
   }
+
+  .title31 {
+    font-size: 1.5em;
+    line-height: 1.6em;
+  }
   
   .title3 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.6em;
+    margin-top: 5px;
   }
   
   .text3 {
     padding: 0% 0% 0% 0%;
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.5;
   }
 }
 /* #endregion */
@@ -369,6 +392,11 @@
   .text4 {
     font-size: 2.5em;
   }
+
+  .buttonPosition4 {
+    top: 70%;
+    right: 10%;
+  }
 }
 /* #endregion */
 
@@ -404,7 +432,7 @@
 .textAbout {
   font-weight: 500;
   font-size: 4em;
-  top: 25%;
+  top: 23%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -412,7 +440,7 @@
 .subtextAbout {
   font-size: 1.3em;
   text-align: center;
-  top: 45%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -501,7 +529,7 @@
   }
   
   .buttonPositionAbout {
-    top: 60%;
+    top: 80%;
     right: 0%;
   }
 }
@@ -568,7 +596,7 @@
 
 /* #region ContactHub */
 .sectionHeightContact {
-  height: 70%;
+  height: 80%;
   padding-top: 70px;
 }
 
@@ -632,7 +660,7 @@
 
 @media (max-width: 858px) {
   .sectionHeightContact2 {
-    height: 50%;
+    height: 70%;
     padding-top: 20px;
   }
 
